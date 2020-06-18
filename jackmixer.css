@@ -61,7 +61,7 @@ div#page {
 div#header {
 	padding: 2em;
 	text-align: right;
-	background: white url(header-bg.gif) repeat-y left top;
+	background: white url(header-bg.gif) repeat-y right top;
         border-bottom: 1px solid #aaa;
 }
 
