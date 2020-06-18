@@ -1,0 +1,183 @@
+/* adapted from Localize template published on oswd */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	color: #666;
+	text-align: center;
+	background-color: #ddd;
+}
+
+p {
+	margin: 0.2em 0 1.2em 0;
+	padding: 0.3em;
+}
+
+h1 {
+	padding: 0;
+	margin: 0;
+	font-size: 180%;
+	font-style: italic; 
+	color: #d6ab00;
+}
+
+h2, h3 {
+	background: #eee;
+	color: #d6ab00;
+	font-size: 120%;
+	margin: 0.2em;
+	padding: 0; 
+	font-style: italic;
+}
+
+h3 {
+	background: #dddddd;
+}
+
+a:link, a:visited {
+	color: #d6ab00;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #d6ab00;
+	text-decoration: none;
+}
+
+a:active {
+	color: #d6ab00;
+	text-decoration: underline;
+}
+
+
+div#page {
+	background: white;
+	margin: 0 auto;
+	width: 70%;
+	border: 1px solid #aaa;
+}
+
+div#header {
+	padding: 2em;
+	text-align: right;
+	background: white url(header-bg.gif) repeat-y left top;
+        border-bottom: 1px solid #aaa;
+}
+
+div#header img {
+        float: left;
+}
+
+#header span {
+	display: block;
+	color: #d6ab00;
+	font-size: 80%;
+}
+
+
+div#navbar ul {
+	font-size: 80%;
+	list-style-type: none;
+	float: left;
+	display: block;
+	width: 100%;
+	line-height: 1.5em; 
+	clear: both;
+	margin: 0;
+	padding: 0;
+	background-color: #999999;
+}
+
+div#navbar ul li {
+	display: inline;
+}
+
+div#navbar a {
+	display: block;
+	float: left;
+	width: 19.8%;
+	padding: 1.2em 0 1em 0;
+	margin: 0; 
+	text-decoration: none;
+}
+
+div#navbar a:link, div#navbar a:visited, div#navbar a:active {
+	background: #999;
+	color: white;
+	border-bottom: 3px solid transparent;
+}
+
+div#navbar a:hover, div#navbar a.here {
+	background: #d6ab00;
+}
+
+div#navbar a.here {
+	border-bottom: 3px solid #489302;
+}
+
+div#quicklinks {
+	float: right;
+	clear: both;
+	width: 13em;
+	min-width: 110px;
+	margin-top: 1em;
+	padding: 0;
+	font-size: 90%;
+	text-align: center;
+}
+
+div#download,
+div#documentation,
+div#contact {
+	margin: 0.5em;
+	padding: 0.3em;
+	border: 1px solid #999999;
+}
+
+#quicklinks h2, #quicklinks h3 {
+	text-align: left;
+	padding-left: 1.5em;
+}
+
+#quicklinks ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+#quicklinks ul li {
+        margin: 1ex 0;
+}
+
+#content {
+	clear: left;
+	text-align: left;
+	margin: 1.2em 13.5em 0 0;
+	padding: 1em 1ex 1em 1.5ex;
+}
+
+#content.large {
+	margin-right: 1.2em;
+}
+
+#content h2, #content h3 {
+	text-indent: 2em;
+}
+
+#copyright {
+	color: #999;
+	font-size: 80%;
+	margin: 2.5em 0.2em 0.5em 0.5em;
+	padding: 0.8em; 
+	border-top: 1px solid #999;
+	text-align: left;
+	clear: both;
+}
+
+div.figure {
+        margin: 1em auto 3em auto;
+        text-align: center;
+        font-style: italic;
+}
+
