@@ -19,12 +19,12 @@ h1 {
 	margin: 0;
 	font-size: 180%;
 	font-style: italic; 
-	color: #d6ab00;
+	color: #8e7200;
 }
 
 h2, h3 {
 	background: #eee;
-	color: #d6ab00;
+	color: #8e7200;
 	font-size: 120%;
 	margin: 0.2em;
 	padding: 0; 
@@ -36,17 +36,17 @@ h3 {
 }
 
 a:link, a:visited {
-	color: #d6ab00;
+	color: #8e7200;
 	text-decoration: underline;
 }
 
 a:hover {
-	color: #d6ab00;
+	color: #8e7200;
 	text-decoration: none;
 }
 
 a:active {
-	color: #d6ab00;
+	color: #8e7200;
 	text-decoration: underline;
 }
 
@@ -71,7 +71,7 @@ div#header img {
 
 #header span {
 	display: block;
-	color: #d6ab00;
+	color: #8e7200;
 	font-size: 80%;
 }
 
@@ -109,7 +109,7 @@ div#navbar a:link, div#navbar a:visited, div#navbar a:active {
 }
 
 div#navbar a:hover, div#navbar a.here {
-	background: #d6ab00;
+	background: #8e7200;
 }
 
 div#navbar a.here {
